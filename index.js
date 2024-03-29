@@ -1,35 +1,34 @@
 // Sample menu data (Consider fetching this data from a server in a real-world scenario)
 const menu = {
-    Starters: ["Garlic Bread", "Bruschetta"],
-    MainCourses: ["Margherita Pizza", "Spaghetti Carbonara"],
-    Desserts: ["Tiramisu", "Cheesecake"]
+    Starters: ["Garlic Bread", "Bruschetta", "Shrimp Cocktail", "Beef Carpaccio", "Caprese Salad"],
+    MainCourses: ["Margherita Pizza", "Spaghetti Carbonara", "Butternut Squash Ravioli with Sage Butter Sauce", "Lobster Risotto", "Vegetarian Lasagna"],
+    Desserts: ["Tiramisu", "Cheesecake", "Crème Brûlée", "Red Velvet Cake", "Affogato"]
 };
 
 // Function to display menu items by category
 function displayMenuItems(menu) {
-    // Get the menu container element from the HTML
+    const menuContainer = document.getElementById('menu');
 
-    // Loop through each category and its items in the menu object
+    for (const category in menu) {
+        if (menu.hasOwnProperty(category)) {
+            const categoryElement = document.createElement('h3');
+            categoryElement.textContent = category;
+            menuContainer.appendChild(categoryElement);
 
-        // Create an element to represent the category
+            const itemListElement = document.createElement('ul');
+            menuContainer.appendChild(itemListElement);
 
-        // Set the text content of the category element to the category name
+            menu[category].forEach(item => {
+                const listItemElement = document.createElement('li');
+                listItemElement.textContent = item;
+                listItemElement.addEventListener('click', () => addToOrder(item));
+                itemListElement.appendChild(listItemElement);
+            });
 
-        // Append the category element to the menu container
-
-        // Create an element to represent a list of items
-
-        // Append a list of items element to the menu container
-
-        // Loop through the items in the category and create list items
-
-            // Create a list item element
-
-            // Set the text content of the list item element to the item name
-
-            // Attach a click event listener to the list item to add it to the order
-
-            // Append the list item to the list of items
+        }
+    }
+}
+    
 
             
 }
