@@ -8,7 +8,7 @@ The objective of the project is to create an interactive menu system for a resta
 
 This project was both challenging and rewarding as I had to apply my Javascript fundemental knowledge, such as loops, conditionals, and DOM manipulation, to overcome various technical challenges, including dynamically generating menu items and handling user interactions. Collaborating with my classmates allowed me to learn from their knowlege which helped me see and find new ways to code.
 
-## Challenges faced
+## Challenges faced:
 
 The challenges I faces with this project were  implementing JavaScript concepts, managing project scope and time effectively, designing a user-friendly interface, debugging code, and documenting progress. Also balancing technical learning with practical application was a bit of a challenge for me.
 
