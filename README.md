@@ -1,59 +1,25 @@
 # [JSL06] Submission: CodeCuisine Menu Display System Challenge
 
-You will:
-1. Use the provided Starter Code Repository: https://github.com/CodeSpace-Academy/Module_6_StudentNo_Classcode_Group_Name-Surname_JSL06
-2. Code your solution.
-3. Commit changes to your GitHub repository.
-4. Submit the GitHub Repository Link to the LMS [JSL06] Submission Project Tab.
-
-In this coding challenge, you will build a simple menu display system for a fictional UberEats restaurant called "CodeCuisine." The goal is to display different categories of food items and allow users to add items to their order with a click. This challenge will help you apply various JavaScript concepts, including functions, closures, and event handling, to create an interactive menu.
-
-![alt text](JSL06-solution.gif)
-
 ## Objectives:
 
-- Create and use functions to dynamically populate the menu items on the page.
-- Implement a callback function to handle adding items to the order.
-- Use closures to maintain the state of the order.
-- Utilize function expressions and anonymous functions.
-- Call built-in functions and create custom functions to manage the menu and order system.
+The objective of the project is to create an interactive menu system for a restaurant website, enabling users to browse menu items conveniently categorized into starters, main courses, and desserts. Users can select items by clicking on them, which are then added to an order list displayed on the page. Additionally, the system calculates the total price of the order based on the selected items. By providing these features, the project enhances the user experience of the website visitors, making it easier for them to explore menu options and place orders seamlessly.
 
-## Instructions:
+## Reflections:
 
-1. **Use the Project Files:** Begin by accessing the starter code in the JSL06 GitHub repo.
+This project was both challenging and rewarding as I had to apply my Javascript fundemental knowledge, such as loops, conditionals, and DOM manipulation, to overcome various technical challenges, including dynamically generating menu items and handling user interactions. Collaborating with my classmates allowed me to learn from their knowlege which helped me see and find new ways to code.
 
-2. **JavaScript Implementation**: Use the provided starter code in `index.js` as a foundation for your application. The starter code contains placeholders for key functions and comments to guide you through the implementation.
+## Challenges faced
 
-    - `menu`: The `menu` object contains sample menu data, including categories and items. You can expand this menu with more items if needed.
+The challenges I faces with this project were  implementing JavaScript concepts, managing project scope and time effectively, designing a user-friendly interface, debugging code, and documenting progress. Also balancing technical learning with practical application was a bit of a challenge for me.
 
-    - `displayMenuItems(menu)`: This function should dynamically create and display menu items grouped by category. Iterate over the `menu` object and create HTML elements for each category and item. Attach event listeners to the menu items to handle adding items to the order.
+ ## Areas for Improvement:
 
-    - `addToOrder(itemName)`: Implement this callback function to update the order summary when an item is added. You can use closures to maintain the state of the order. Calculate and update the total price accordingly.
+ Understanding and Using Javascript better. I need to learn how to write code that is user-friendly and clean.
 
-    - `initMenuSystem(menu)`: Call the `displayMenuItems` function with the menu data and attach event listeners to menu items.
 
-3. **Testing**: Thoroughly test your application to ensure that it can correctly add items to the order and that the order total updates as expected.
 
-## What You Need to Do:
+## Overall learning experience:
 
-To complete this challenge, follow these steps:
+This project deepened my understanding for Javascript Fundementals, it also exposed areas where I need more practice on. It exposed me to real-life scenarios to show how I can use Javascript to solve real-life problems.
 
-1. Clone the provided Starter Code Repository to your local development environment: [Starter Code Repository](https://github.com/CodeSpace-Academy/Module_6_StudentNo_Classcode_Group_Name-Surname_JSL06).
-2. Open the cloned project in your code editor.
-3. Code your solution following the provided instructions and comments in the starter code.
-4. Commit your changes to your local Git repository with meaningful commit messages.
-5. Push your local Git repository to your GitHub account.
-6. Verify that the changes have been successfully pushed to your GitHub repository.
 
-## What You Need to Include:
-
-1. Ensure that your code includes the necessary modifications to meet the challenge requirements.
-2. Your GitHub repository should contain the updated code files.
-
-## How We'll Assess Your Work:
-
-1. We will review your GitHub repository to ensure that it contains the updated code files.
-2. We will assess the modifications made to the code to verify that they effectively meet the challenge requirements.
-3. We will consider the commit history and meaningful commit messages to evaluate your coding process.
-
-By following these steps and completing the challenge, you will demonstrate your ability to create interactive web applications using JavaScript. Good luck, and enjoy building the CodeCuisine Menu Display System!
